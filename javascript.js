@@ -12,3 +12,10 @@ let b=66;
 let c=a+b;
 console.log (c);
 
+
+let x=4;
+let y=8;
+let m =(x+y)*2;
+console.log(m);
+console.log(y%3);
+console.log(x=y);
