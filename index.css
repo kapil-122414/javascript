@@ -1,0 +1,45 @@
+body{
+    background-color: aqua;
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+   
+    
+}
+div{
+    
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    animation: myname 20s infinite ;
+     
+ 
+     
+
+    
+}
+@keyframes myname {
+     
+ 0%{
+   
+  transform: rotate(360deg);
+    background-color: blue;
+    
+ }
+ 25%{
+    background-color: red;
+     border-radius: 50%;
+ }
+
+ 50%{
+    background-color: blueviolet;
+     border-radius: 50%;
+ }
+    
+ 100%{
+    background-color: black;
+    
+ }
+}

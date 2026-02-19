@@ -335,10 +335,203 @@
 //             }
 // }
 //Q47
+// {
+//     let i=0;
+//     while(i<=10){
+//         console.log(i);
+//         i++;
+//     }
+// }
+//Q48
+
+
+
+// {
+
+//    let n = 5;
+
+// for (let i = 0; i<=n; i++) {
+    
+//     for (let j = 0; j <=i; j++) {
+//         document.write("*")
+//     }
+//     document.write("<br>" );
+// }
+// }
+
+//Q49
+// {
+//     for(let i=1;i<=100;i++){
+//         if(i%5===0){
+//             console.log(i);
+//         }
+//     }
+// }
+//Q50
+// {
+//     for(let i=50;i>=1;i--){
+        
+//             console.log(i);
+        
+//     }
+// }
+
+
+//loops in js
+// {
+//     let n=5;
+//     for(let i=0;i<=n;i++){
+//         for(let j=5; j>=i;j--){
+//          document.write("*");
+//         }
+//           document.write("<br>");
+//     }
+// }
+
+// {
+//     let n=3;
+//     for(let i=1;i<=n;i++){
+//         for(let j=1;j<=n; j++){
+//             document.write(j);
+//         }
+//        document.write("<br>");
+//     }
+// }
+//     document.write("<br>");
+// {
+//     let n=4;
+//     let num=1;
+//     for(let i=1;i<=n;i++){
+//         for(let j=1;j<=n;j++){
+//           num+=0;
+      
+//          document.write(num);
+//              num++;
+//         }
+//         document.write("<br>");
+
+//     }
+
+// }
+//     document.write("<br>");
+
+// {
+//     let n=4;
+//     for(let i=1;i<=n;i++){
+//         for(let j=1;j<=i;j++){
+//             document.write(i);
+//         }
+//         document.write("<br>");
+//     }
+// }
+//   document.write("<br>");
+
+//   //revers triangle
+// {
+//     let n=4;
+//     for(let i=1;i<=n;i++){
+//         for(let j=4;j>=i ;j--){
+//             document.write("*");}
+//              document.write("<br>");
+//     }
+   
+// }
+//   document.write("<br>");
+// //revers triangle pattern
+// {
+//     let n=3;
+//     for(let i=0;i<=n;i++){
+//         for(let j=i+1;j>0;j--){
+//             document.write(j);
+//         }
+//         document.write("<br>");
+//     }
+// }
+// document.write("floyds triangle"+"<br>");
+//   //floyds triangle
+//   {
+    
+//     let n=4;
+//     let num=0;
+
+//     for(let i=1;i<=n;i++){
+//         for(let j=1;j<=i;j++){
+//             num=num+1;
+//             document.write(num);
+//         }
+//         document.write("<br>");
+//     }
+//   }
+// document.write( " Inverted triangle pattern"+"<br>");
+
+
+
+// {
+//     let n=4;
+//     for(let i=1;i<=n;i++){
+//         for(let j=1;j<i;j++){
+//            document.write(" ");
+//         }
+//        for(let j=0;j<n-i;j--){
+//         document.write(i+1);
+//        }
+//        document.write("<br>")
+//     }
+
+
+// }
+
+
+// {
+//     let row=4;
+//     for(let i=1;i<=row; i++){
+    
+//            let space="";
+//         for(let j=1;j<=row-i;j++){
+            
+//             space+=" ";
+
+//         }
+//         for(let k=1;k<=i;k++){
+//            space+=k;
+//         }
+       
+//         for(let p=i-1;p>=1;p--){
+//          space+=p
+//         }
+//         console.log(space);
+       
+//     }
+// }
+
+
+
 {
-    let i=0;
-    while(i<=10){
-        console.log(i);
-        i++;
+    let row=5;
+    num=0;
+    for(let i=1;i<=row;i++){
+        let space="";
+        for(let k=1; k<i; k++){
+            space+=" ";
+        }
+
+        for(let j=1;j<=row-i;j++){
+            
+            space+=j;
+        }
+        console.log(space);
+        
     }
+
 }
+
+
+
+
+
+
+
+
+
+
+
