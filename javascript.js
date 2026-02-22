@@ -506,32 +506,93 @@
 
 
 
-{
-    let row=5;
-    num=0;
-    for(let i=1;i<=row;i++){
-        let space="";
-        for(let k=1; k<i; k++){
-            space+=" ";
-        }
+// {
+//     let row=5;
+//     num=0;
+//     for(let i=1;i<=row;i++){
+//         let space="";
+//         for(let k=1; k<i; k++){
+//             space+=" ";
+//         }
 
-        for(let j=1;j<=row-i;j++){
+//         for(let j=1;j<=row-i;j++){
             
-            space+=j;
-        }
-        console.log(space);
+//             space+=j;
+//         }
+//         console.log(space);
         
-    }
+//     }
 
+// }
+//hello
+
+
+
+
+
+// {
+//     let n=4;
+//     for(let i=1;i<=n;i++){
+//         let space="";
+//         for(let j=1;j<=n;j++){
+//             if(i==1||i==n||j==1||j==n){
+//                 space+="*";
+//             }
+//             else{
+//                 space+=" ";
+//             }
+
+//         }
+//         console.log(space);
+//     }
+// }
+
+//
+// 
+
+//string in js
+// {
+// let string="kapil ";
+// const str="kumar";
+// console.log(string+" "+str);
+// let template =`thi's is template "string"`;
+// console.log(template);
+// console.log(template.length);
+// let escape=" thi's is \f template \n \"string\" ";
+// console.log(escape);
+// console.log(`hello ${str} ${str}`);
+// }
+//template literals
+//string method
+// {
+//     let name="kapil";
+//     let str="kumar"
+//     console.log(name.length);
+//     console.log(name.charAt(3));
+//     console.log(name.charCodeAt(1));
+//     console.log(name.codePointAt(4));
+//     console.log(name.at(-2));
+//     console.log(name.concat(" ",str));
+//     //extracting parts
+
+//     let ext="apple,banana ,mango";
+//     console.log(ext.slice(6,13));
+//     //console.log(ext.slice(-5));
+//     console.log(ext.slice(-15,-6));
+//     console.log(ext.substring(1,6));
+//     console.log(ext.substring(-5));
+//     console.log(ext.substr(0,9));
+//     console.log(ext.substr(-8,-1));
+// }
+
+// 
+{
+let padstar="kappil";
+console.log(padstar.padStart(8,"p"));
+console.log(padstar.padEnd(9,"0123"));
+console.log(padstar);
+console.log(padstar.repeat(3));
+console.log(padstar.replace("p" ,""));
+console.log(padstar.replace(/P/i ,"")); //riting P (with upper-case) will not work:
 }
-
-
-
-
-
-
-
-
-
-
 
