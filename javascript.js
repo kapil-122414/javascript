@@ -586,13 +586,46 @@
 // }
 
 // 
-{
-let padstar="kappil";
-console.log(padstar.padStart(8,"p"));
-console.log(padstar.padEnd(9,"0123"));
-console.log(padstar);
-console.log(padstar.repeat(3));
-console.log(padstar.replace("p" ,""));
-console.log(padstar.replace(/P/i ,"")); //riting P (with upper-case) will not work:
-}
+// {
+// let padstar="kappil";
+// console.log(padstar.padStart(8,"p"));
+// console.log(padstar.padEnd(9,"0123"));
+// console.log(padstar);
+// console.log(padstar.repeat(3));
+// console.log(padstar.replace("p" ,""));
+// console.log(padstar.replace(/P/i ,"")); //riting P (with upper-case) will not work:
+// }
 
+// {
+//     const array=["apple","mango","banana","orange"];
+//     console.log(array);
+//     console.log(typeof array);
+
+//     const name=new Array("kapil","rohit","mohit");
+//     console.log(name);
+//     console.log(name[0]);
+//     name[0]="aman";
+//     console.log(name);
+//     console.log(array.toString());//tostring
+//     for(let i=0;i<name.length;i++){
+//         console.log(name[i]);
+//     }
+// }
+
+{
+    // let name=new array(5);
+    // console.log(name);
+
+    const fruit =["apple","banana","mango"];
+    console.log(fruit);
+    fruit.pop();
+    console.log(fruit);
+    fruit.push("orange");
+    console.log(fruit);
+    fruit.shift();
+    console.log(fruit);
+    fruit.unshift("limon");
+    console.log(fruit);
+    const name=["kapil",'rohit'];
+    console.log(fruit.concat(name));
+}
