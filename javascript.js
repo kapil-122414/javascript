@@ -628,4 +628,6 @@
     console.log(fruit);
     const name=["kapil",'rohit'];
     console.log(fruit.concat(name));
+    fruit.copyWithin(2,0,2);
+    console.log(fruit);
 }
