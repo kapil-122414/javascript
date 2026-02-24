@@ -154,16 +154,16 @@
 
 
 //Q27
-{
-    let u=16;
-    if(u>=18){
-        console.log("adult");
+// {
+//     let u=16;
+//     if(u>=18){
+//         console.log("adult");
 
-    }
- else{
-    console.log("minor");
- }
-}
+//     }
+//  else{
+//     console.log("minor");
+//  }
+// }
 
 //Q28
 // {    
@@ -190,12 +190,12 @@
 //          }
 // }
 //Q30
-{
-    let a=10;
-    let b=30;
-    let c=89;
+// {
+//     let a=10;
+//     let b=30;
+//     let c=89;
     
-}
+// }
 
 
 //Q31
@@ -278,9 +278,9 @@
 //     console.log((a>=27)?"pass":"fail");
 // }
 //Q39'
-{
-    let a=90;
-}
+// {
+//     let a=90;
+// }
 
 //40
 
@@ -612,22 +612,122 @@
 //     }
 // }
 
-{
-    // let name=new array(5);
-    // console.log(name);
+// {
+//     // let name=new array(5);
+//     // console.log(name);
 
-    const fruit =["apple","banana","mango"];
-    console.log(fruit);
-    fruit.pop();
-    console.log(fruit);
-    fruit.push("orange");
-    console.log(fruit);
-    fruit.shift();
-    console.log(fruit);
-    fruit.unshift("limon");
-    console.log(fruit);
-    const name=["kapil",'rohit'];
-    console.log(fruit.concat(name));
-    fruit.copyWithin(2,0,2);
-    console.log(fruit);
+//     const fruit =["apple","banana","mango"];
+//     console.log(fruit);
+//     fruit.pop();
+//     console.log(fruit);
+//     fruit.push("orange");
+//     console.log(fruit);
+//     fruit.shift();
+//     console.log(fruit);
+//     fruit.unshift("limon");
+//     console.log(fruit);
+//     const name=["kapil",'rohit'];
+//     console.log(fruit.concat(name));
+//     fruit.copyWithin(2,0,2);
+//     console.log(fruit);
+// }
+
+//array search
+// {
+// //     const fruits=["apple","banana","orange", "apple","mango"];
+// //     console.log(fruits.indexOf("banana")+1);
+// //     console.log(fruits.lastIndexOf("apple")+1)
+// //    console.log(fruits.includes("banan"))
+// //     // let string="kapil";
+// //     // console.log(string.substring(-1,-5));
+
+// // const number=[10,20,30,65,34];
+// // console.log(number);
+
+
+
+    
+// }
+
+
+// {
+//     let n=5;
+//     for(let i=1;i<=n;i++){
+//             let space="";
+//         for(let j=1;j<=i;j++){
+
+//             space+="*";
+//         }
+//         console.log(space);
+        
+//     }
+
+
+// }
+
+// {
+//     let n=5;
+//     for(let i=1;i<=n;i++){
+//         let space="";
+//         for(let j=1;j<=n-i;j++){
+//             space+=" ";
+//          }
+//          for(let k=1;k<=i;k++){
+//             space+="*";
+//          }
+//          console.log(space);
+//     }
+
+// }
+
+// {
+//     let n=10;
+//     for(let i=1;i<=n;i++){
+//         let space="";
+//         for(let j=1;j<=n-i;j++){
+//             space+=" ";
+//         }
+//         for(let k=1;k<=i;k++){
+//             space+="*";
+//         }
+//         for(let l=2;l<=i;l++){
+//             space+="*";
+//         }
+//         console.log(space);
+//     }
+// }
+
+// {
+// let n=6;
+// for(let i=0;i<=n;i++){
+//     let space="";
+
+//     for(let k=0;k<i;k++){
+//         space+=" ";
+//     }
+//     for(let j=1;j<=n-i;j++){
+//         space+="*"
+//     }
+//     for(let l=1;l<=n-i-1;l++){
+//         space+="*";
+
+//     }
+//     console.log(space);
+// }
+// }
+
+{
+    let n=10;
+    for(let i=1;i<=n;i++){
+        let space="";
+        for(j=1;j<=n;j++){
+            if(i==1||j==1||i==n||j==n){
+                space+="*";
+            }
+            else{
+                space+=" ";
+            }
+        }
+        console.log(space);
+    }
 }
