@@ -716,18 +716,97 @@
 // }
 // }
 
+// {
+//     let n=10;
+//     for(let i=1;i<=n;i++){
+//         let space="";
+//         for(j=1;j<=n;j++){
+//             if(i==1||j==1||i==n||j==n){
+//                 space+="*";
+//             }
+//             else{
+//                 space+=" ";
+//             }
+//         }
+//         console.log(space);
+//     }
+// }
+
 {
-    let n=10;
-    for(let i=1;i<=n;i++){
-        let space="";
-        for(j=1;j<=n;j++){
-            if(i==1||j==1||i==n||j==n){
-                space+="*";
-            }
-            else{
-                space+=" ";
-            }
-        }
-        console.log(space);
+    // let n=10;
+     
+    // for(let i=1;i<=n;i++){
+    //    let space="";
+    //     for(let j=1;j<=n-i;j++){
+    //         space+=" ";
+    //     }
+    //     for(let k=1;k<=i;k++){
+    //         space+="*";
+    //     }
+    //     for(let l=1;l<i;l++){
+    //         space+="*";
+    //     }
+    //     console.log(space);
+        
+   
+    // }
+    //  for(let m=1;m<=n;m++){
+    //        let space="";
+    //     for(let o=1;o<=m;o++){
+    //         space+=" "
+    //     }
+    //     for(let p=1;p<=n-m-1;p++){
+    //         space+="*";
+    //     }
+       
+    //    for(let k=1;k<=n-m;k++){
+    //      space+="*";
+    //    }
+    //    console.log(space);
+    // }
+
+
+}
+
+{
+//     let n=9
+//     if(n%2===1){
+//         for(let i=1;i<=n;i++){
+//             let space=""
+//               for(let k=1;k<=n-i;k++){
+//                 space+=" ";
+//               }
+
+//             for(j=1;j<=i*2-1;j++){
+//                 if(i==1||j==1||i==n||j==i*2-1){
+//                 space+="*";}
+//                 else{
+//                     space+=" ";
+//                 }
+//                  } console.log(space);
+//     }
+
+//     }
+//         else{
+//             console.log("enter only odd number not even");
+//         }
+       
+
+}
+{
+    let n = 6;
+
+for (let i = 1; i <= n; i++) {
+    let ch = 'A';
+    let space = "";
+
+    for (let j = 1; j <= n; j++) {
+        space += ch;
+        ch = String.fromCharCode(ch.charCodeAt(0) + 1);
+       
     }
+    
+    console.log(space);
+}
+
 }
