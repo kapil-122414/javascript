@@ -794,19 +794,83 @@
 
 }
 {
-    let n = 6;
+//     let n = 6;
 
-for (let i = 1; i <= n; i++) {
-    let ch = 'A';
-    let space = "";
-
-    for (let j = 1; j <= n; j++) {
-        space += ch;
-        ch = String.fromCharCode(ch.charCodeAt(0) + 1);
-       
-    }
+// for (let i = 1; i <= n; i++) {
+//     let ch = 'A';
+//     let space = "";
+//   let num=0;
+//     for (let j = 1; j <= i; j++) {
+//         space += ch;
+//         let a=ch.charCodeAt(space) + 1;
+//         ch = String.fromCharCode(a);
+//          num=ch;
+//     }
     
-    console.log(space);
-}
+    
+//     console.log(num);
+// }
 
 }
+
+// {
+
+//     let n=4;
+//       let num=0;
+//     for(let i=1;i<=n;i++){
+//          let space="";
+      
+//         for(let j=1;j<=i;j++){
+//                  num=num+1;
+
+//         space+=num;
+//         }
+         
+//         console.log(space);
+//     }
+// }
+
+
+{
+    let row =6;
+    let num=64;
+    for(let i=1;i<=row;i++){
+
+        
+      
+         let space="";
+        for(let j=1;j<=row-1;j++){
+            num=num+1
+            let a=String.fromCharCode(num);
+            let b=a;
+             space+=a;
+             
+        if(b==='A'||b==='E'||b==='I'||b==='O'||b==='U'){
+                space+="vol"
+             }
+             else{
+                space+="con"
+             }
+             }
+        console.log(space);
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+// {
+//     let a=String.fromCharCode(65);
+//    let charnum= a.charCodeAt();
+//    console.log(a);
+//     console.log(charnum);
+
+// }
