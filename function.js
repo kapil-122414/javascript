@@ -114,12 +114,93 @@
     
     // console.log(array);
 
-let array = [1,2,3,4,5];
+// let array = [1,2,3,4,5];
 
-let newArray = array.map((value) => {
-    return value * value;
-});
+// let newArray = array.forEach((value) => {
+//     return value * value;
+// });
 
-console.log(newArray); // [1,4,9,16,25]
-console.log(array);    // [1,2,3,4,5]
+// console.log(newArray); // [1,4,9,16,25]
+// console.log(array);    // [1,2,3,4,5]
+}
+
+
+{
+
+    //function expressions
+//     const sum=function(x){
+//  return x*x;
+//     }
+//     console.log(sum(3))
+// arrow function
+// const add=(a,b)=>{
+//    return a+b;
+
+// }
+// let result=add(99,87);
+// console.log(result);
+
+}
+
+
+{
+    // let array=[12,87,54,44,24,64];
+    // let even=array.filter((value)=>{
+    //      return value%2===0;
+    // });
+    // console.log( even);
+    //  console.log( array);
+}
+
+//reduce function
+{
+// let array=[1,2,3,4,5,6];
+//     let reduce=array.reduce((Result,value)=>{
+//     return Result+value;
+  
+// });
+//   console.log(reduce);
+
+//large number of array
+// let reduce=array.reduce((larg,val)=>{
+//      return larg > val ? larg:val;
+// });
+//  console.log(reduce); 
+}
+//find the 90+ number
+{
+// let array=[98,38,76,90,94,98];
+// let number=array.filter((value)=>{
+//     if(value>=90){
+//   return  value;
+//     }
+  
+// });
+// console.log(number);
+}
+
+{
+
+    // function name(){
+    //     return "kapil";
+    // }
+    // const obj={
+    //     name:"kapil",
+    //     rollno:"124324",
+    //     course:"bca",
+    //     a:name()
+    // }
+    // console.log(obj.a);
+}
+
+//nested object
+{
+const nested={
+    name:"kapil",
+    rollno:"24567io",
+    mynested:{
+        skill:"c",
+    }
+}
+console.log(nested.mynested.skill);
 }
