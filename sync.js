@@ -29,11 +29,11 @@
 //callbacks
 {
     function sum(a,b){
-        return a+b;
+        console.log(a+b);
     }
     function callback(a ,b ,callbacks){
     callbacks(a,b);
     }
-   let sums= callback(1,2 ,sum)
-console.log(sums);
+    callback(1,2 ,sum)
+
 }
