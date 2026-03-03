@@ -117,52 +117,63 @@
     
 }
 
+
+//promise chaining
 {
-      const   getdata=()=>{
-        return new Promise((resolve,reject)=>{
-            setTimeout(() => {
-                console.log("i am promise");
-            resolve("successfully"); 
-            }, 2000);
+    //   const   getdata=()=>{
+    //     return new Promise((resolve,reject)=>{
+    //         setTimeout(() => {
+    //             console.log("i am promise");
+    //         resolve("successfully"); 
+    //         }, 2000);
            
-        });
+    //     });
 
-    }
+    // }
 
-    const getdata1=()=>{
-        return new Promise((resolve,reject)=>{
-            setTimeout(()=>{
-              console.log("i am promise2");
-            resolve ("successfly2");
-            } ,2000);
+    // const getdata1=()=>{
+    //     return new Promise((resolve,reject)=>{
+    //         setTimeout(()=>{
+    //           console.log("i am promise2");
+    //         resolve ("successfly2");
+    //         } ,2000);
             
-        });
-    }
+    //     });
+    // }
 
-     const getdata3=()=>{
-        return new Promise((resolve,reject)=>{
-            setTimeout(()=>{
-              console.log("i am promise3");
-            resolve ("successfly3");
-            } ,2000);
+    //  const getdata3=()=>{
+    //     return new Promise((resolve,reject)=>{
+    //         setTimeout(()=>{
+    //           console.log("i am promise3");
+    //         resolve ("successfly3");
+    //         } ,2000);
             
-        });
-    }
+    //     });
+    // }
 
-    let p1=getdata();
+    // let p1=getdata();
     
-    p1.then((res)=>{
-        console.log(" data insert",res);
-        let p2=getdata1();
-        p2.then((res)=>{
-            console.log("data 2 insert " ,res);
-            let p3=getdata3();
-        p3.then((res)=>{
-        console.log("successfuly dta 3",res);
-        });
-        });
+    // p1.then((res)=>{
+    //     console.log(" data insert",res);
+    //     let p2=getdata1();
+    //     p2.then((res)=>{
+    //         console.log("data 2 insert " ,res);
+    //         let p3=getdata3();
+    //     p3.then((res)=>{
+    //     console.log("successfuly dta 3",res);
+    //     });
+    //     });
         
-    });
+    // });
 
     
+}
+
+//async or await
+{
+    async function myfunction(){
+        console.log("i am hello");
+    }
+   myfunction();
+
 }
