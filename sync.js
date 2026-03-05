@@ -178,7 +178,7 @@
         console.log(responce);
         let data =await responce.json();
         console.log(data.fact);
-        
+        document.getElementById("fact").innerText=data.fact;
       
     }
 
