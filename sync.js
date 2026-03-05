@@ -142,24 +142,45 @@
 
 //async or await
 {
-  function getdata() {
-    return new Promise((resolve, reject) => {
-      setTimeout(() => {
-        console.log("api fetch");
-        resolve("sucess");
-      }, 2000);
-    });
-  }
+//  ' function getdata() {
+//     return new Promise((resolve, reject) => {
+//       setTimeout(() => {
+//         console.log("api fetch");
+//         resolve("sucess");
+//       }, 2000);
+//     });
+//   }
 
 
-  async function myfunction() {
-    await getdata(); // 1 time call
-    await getdata(); //2 time
-  }
+//   async function myfunction() {
+//     await getdata(); // 1 time call
+//     await getdata(); //2 time
+//   }'
 
 //iife
 //   (async function myfunction() {
 //     await getdata(); // 1 time call
 //     await getdata(); //2 time
 //   })();
+}
+
+//api
+
+{
+    const url="https://catfact.ninja/fact";
+   
+
+   
+
+    async function show(){
+
+        let responce= await fetch(url);
+        console.log(responce);
+        let data =await responce.json();
+        console.log(data.fact);
+        
+      
+    }
+
+    console.log(show());
 }
