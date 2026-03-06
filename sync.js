@@ -167,20 +167,86 @@
 //api
 
 {
-    const url="https://catfact.ninja/fact";
+   // const url="https://catfact.ninja/fact";
+   
+// const url ="https://dog.ceo/api/breeds/list/all";
    
 
-   
+//     async function show(){
 
-    async function show(){
+//         let responce= await fetch(url);
+//         console.log(responce);
+        
+//       let data =await responce.json();
+//       console.log(data.status);
 
-        let responce= await fetch(url);
-        console.log(responce);
-        let data =await responce.json();
-        console.log(data.fact);
-        document.getElementById("fact").innerText=data.fact;
       
-    }
+//     }
 
-    console.log(show());
+//     console.log(show());
+// 
+}
+
+{
+  // const url="https://dog.ceo/api/breeds/image/random";
+
+  //    async function getimg(){
+      
+  //     let responce= await fetch(url);
+  //     console.log(responce);
+  //     let object=await responce.json();
+  //     setTimeout(() => {
+  //       console.log(object);
+  //     },2000);
+      
+
+  //     document.getElementById("fact").src=object.message;
+  // }
+  // console.log(getimg());
+}
+
+
+
+{
+  // const url="https://dragonball-api.com/api/characters/22";
+  
+  // async function anmi(){
+  //      let responce=await fetch(url);
+  //      console.log(responce);
+  //      let jsn=await responce.json();
+  //      console.log(jsn);
+  //      document.getElementById("fact").src=jsn.image;
+  //      document.getElementById("facttext").innerText= jsn.description;
+  // }
+  // console.log(anmi());
+}
+{
+  // const arr=[1,2,3,[4,5,5]];
+  // //  const arr1=[...arr,45]; //spred operater
+  // //  console.log(arr1);
+  // //  console.log(arr);
+  //    const newaa=[...arr];  //shallocopy
+  //    newaa[0]=9;
+  //    newaa[3][1]=10;
+  //    console.log(newaa);
+  //    console.log(arr);     
+
+
+}
+//deep copy
+{
+  const onj={name:"kapil",
+    rollno:"34",
+    subj:{eng:"eng",c:"c"}
+  }
+
+  console.log(onj);
+
+   const newobj=structuredClone(onj);
+
+  newobj.subj.eng="hindi";
+  console.log(newobj);
+
+
+
 }
