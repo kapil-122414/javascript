@@ -235,18 +235,43 @@
 }
 //deep copy
 {
-  const onj={name:"kapil",
-    rollno:"34",
-    subj:{eng:"eng",c:"c"}
-  }
+  // const onj={name:"kapil",
+  //   rollno:"34",
+  //   subj:{eng:"eng",c:"c"}
+  // }
 
-  console.log(onj);
+  // console.log(onj);
 
-   const newobj=structuredClone(onj);
+  //  const newobj=structuredClone(onj);
 
-  newobj.subj.eng="hindi";
-  console.log(newobj);
+  // newobj.subj.eng="hindi";
+  // console.log(newobj);
 
 
 
+}
+
+//deep copy
+{
+
+// let obj={
+//   name:"kapil"
+// }
+// let news=JSON.parse(JSON.stringify(obj));
+//   news.name="rohit";
+// console.log(news);
+}
+//spread operater
+{
+let arr=[1,2,4,5]
+let arr1=[...arr,"23"];
+console.log(arr1);
+
+}
+//rest operater
+{
+function rest(...rest){
+  return rest;
+}
+console.log(rest(1,2,4,5,5));
 }
